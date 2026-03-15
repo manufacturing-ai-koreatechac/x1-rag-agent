@@ -57,6 +57,14 @@ jupyter notebook notebooks/01_korean_embeddings.ipynb
 - **한국어 제조 도메인 문장 20개** (임베딩 실습용)
 - Track A/B 결과 통합은 → S4(`x1-s4-agent-react`)에서 진행
 
+## 관련 공개 데이터셋 / 문서 코퍼스
+
+| # | 데이터셋·코퍼스 | 설명 | 형태 | 링크 |
+|:-:|----------------|------|:----:|------|
+| 1 | **KAMP 스마트제조 가이드북** | 한국 스마트제조 AI 플랫폼 공식 기술 문서. 설비·공정·품질 도메인 한국어 텍스트. RAG 소스 문서로 직접 활용. | PDF | [KAMP](https://www.kamp-ai.kr/front/contents/techReport.jsp) |
+| 2 | **AI Hub 제조 AI 도입 사례** | 실제 제조 기업 AI 적용 사례 보고서 및 문서. 현장 용어와 맥락이 풍부한 한국어 코퍼스. RAG 검색 품질 향상에 기여. | PDF/DOCX | [AI Hub](https://www.aihub.or.kr/aihubdata/data/list.do?searchKeyword=%EC%A0%9C%EC%A1%B0) |
+| 3 | **Wikipedia 제조 도메인 (한국어)** | 위키피디아 한국어 제조업·설비공학·품질관리 문서. LLM 임베딩 검증 및 도메인 적응 실습에 사용. 공개 라이선스(CC BY-SA). | 텍스트 | [HuggingFace](https://huggingface.co/datasets/wikipedia) |
+
 ## 연계 세션
 
 - 선수: [X1-S1: 문제재정의](https://github.com/manufacturing-ai-koreatechac/x1-s1-problem-reframing)
